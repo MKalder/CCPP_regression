@@ -27,6 +27,24 @@ The dataset contains hourly average ambient variables:
 - Exhaust Vacuum (V)
 - Net hourly electrical energy output (PE) - Target variable
 
+## Libraries Used
+To run this notebook, the following libraries are required:
+- `numpy`: For numerical operations.
+- `pandas`: For data manipulation and analysis.
+- `scikit-learn`: For machine learning models and evaluation metrics. This includes:
+  - `LinearRegression`
+  - `DecisionTreeRegressor`
+  - `RandomForestRegressor`
+  - `train_test_split`
+  - `mean_absolute_error`
+  - `mean_squared_error`
+
+## Installation
+Install the required libraries using pip:
+```
+pip install numpy pandas scikit-learn
+```
+
 ## Structure of the Notebook
 The notebook is structured into various sections, including data exploration, preprocessing, model development, and evaluation. Each section is documented to facilitate understanding and reproducibility.
 
